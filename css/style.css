@@ -3,13 +3,17 @@
     margin: 0;
 }
 
+#body {
+    background-color: #f3e5d8;
+}
+
 #flex-container {
     display: flex;
     justify-content: space-between;
     background-color: #255538;
     margin: 20px;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .logo {
@@ -19,55 +23,104 @@
 }
 
 #ul-nav {
+    display: flex;
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-style: italic;
     list-style: none;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .navegador {
     display: inline-block;
+    text-decoration: none;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+.naver {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+
 }
 
 #grid {
     display: grid;
-    grid-template-columns: 1fr 90% 1fr;
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: 200px;
+    justify-self: center;
 }
 
 h1 {
+    width: 88%;
     grid-area: 1/2/2/3;
     text-align: center;
     background-image: url(https://www.gourmet.cl/wp-content/uploads/2023/09/PABELLON.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: auto;
+    justify-self: center;
+    color: white;
+    border-radius: 10px;
+
 }
 
 #grid-container {
     display: grid;
     grid-template-columns: 5% 30% 30% 30% 5%;
+    justify-content: space-between;
 }
+
+
 
 #receta1 {
     grid-area: 1/2/2/3;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #receta2 {
     grid-area: 1/3/2/4;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #receta3 {
     grid-area: 1/4/2/5;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #receta4 {
     grid-area: 2/2/3/3;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #receta5 {
     grid-area: 2/3/3/4;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #receta6 {
     grid-area: 2/4/3/5;
+    justify-self: center;
+    padding: 15px;
+    margin: 0px 0px 15px 0px;
 }
 
 #footer {
@@ -77,5 +130,15 @@ h1 {
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-style: italic;
+    margin: 20px 20px 0px 20px;
+    border-radius: 8px;
+    padding: 20px;
 }
 
+.pagina-principal {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+}
