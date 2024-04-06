@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #255538;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+}
+
+#ul-nav {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    list-style: none;
+}
+
+.navegador {
+    display: inline-block;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 90% 1fr;
+    grid-template-rows: 200px;
+}
+
+h1 {
+    grid-area: 1/2/2/3;
+    text-align: center;
+    background-image: url(https://www.gourmet.cl/wp-content/uploads/2023/09/PABELLON.jpg);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+}
+
+#receta1 {
+    grid-area: 1/2/2/3;
+}
+
+#receta2 {
+    grid-area: 1/3/2/4;
+}
+
+#receta3 {
+    grid-area: 1/4/2/5;
+}
+
+#receta4 {
+    grid-area: 2/2/3/3;
+}
+
+#receta5 {
+    grid-area: 2/3/3/4;
+}
+
+#receta6 {
+    grid-area: 2/4/3/5;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #255538;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+}
+
