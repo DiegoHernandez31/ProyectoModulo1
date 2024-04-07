@@ -61,7 +61,7 @@ h1 {
     width: 88%;
     grid-area: 1/2/2/3;
     text-align: center;
-    background-image: url(https://www.gourmet.cl/wp-content/uploads/2023/09/PABELLON.jpg);
+    background-image: url(https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2019/02/08110326/cachapa-tepizzare.jpg);
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -86,6 +86,7 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
 }
 
 #receta2 {
@@ -93,6 +94,7 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
 }
 
 #receta3 {
@@ -100,6 +102,7 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
 }
 
 #receta4 {
@@ -107,6 +110,7 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
 }
 
 #receta5 {
@@ -114,6 +118,7 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
 }
 
 #receta6 {
@@ -121,6 +126,11 @@ h1 {
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
+    text-align: justify;
+}
+
+.btn-primary {
+    background-color: #255538;
 }
 
 #footer {
