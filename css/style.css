@@ -79,6 +79,14 @@ h1 {
     justify-content: space-between;
 }
 
+@media (max-width: 975px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 5% 45% 45% 5%;
+        justify-content: space-between;
+    }
+}
+
 
 
 #receta1 {
@@ -89,12 +97,52 @@ h1 {
     text-align: justify;
 }
 
+@media (max-width: 975px) {
+    #receta1 {
+        grid-area: 1/2/2/3;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta1 {
+        grid-area: 1/2/2/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
 #receta2 {
     grid-area: 1/3/2/4;
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
     text-align: justify;
+}
+
+@media (max-width: 975px) {
+    #receta2 {
+        grid-area: 1/3/2/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta2 {
+        grid-area: 2/2/3/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
 }
 
 #receta3 {
@@ -105,12 +153,52 @@ h1 {
     text-align: justify;
 }
 
+@media (max-width: 975px) {
+    #receta3 {
+        grid-area: 2/2/3/3;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta3 {
+        grid-area: 3/2/4/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
 #receta4 {
     grid-area: 2/2/3/3;
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
     text-align: justify;
+}
+
+@media (max-width: 975px) {
+    #receta4 {
+        grid-area: 2/3/3/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta4 {
+        grid-area: 4/2/5/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
 }
 
 #receta5 {
@@ -121,12 +209,52 @@ h1 {
     text-align: justify;
 }
 
+@media (max-width: 975px) {
+    #receta5 {
+        grid-area: 3/2/4/3;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta5 {
+        grid-area: 5/2/6/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
 #receta6 {
     grid-area: 2/4/3/5;
     justify-self: center;
     padding: 15px;
     margin: 0px 0px 15px 0px;
     text-align: justify;
+}
+
+@media (max-width: 975px) {
+    #receta6 {
+        grid-area: 3/3/4/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 650px) {
+    #receta6 {
+        grid-area: 6/2/7/4;
+        justify-self: center;
+        padding: 15px;
+        margin: 0px 0px 15px 0px;
+        text-align: justify;
+    }
 }
 
 .btn-primary {
