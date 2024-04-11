@@ -70,13 +70,17 @@ h1 {
     justify-self: center;
     color: white;
     border-radius: 10px;
+    padding-top: 75px;
 
 }
 
 #grid-container {
     display: grid;
-    grid-template-columns: 5% 30% 30% 30% 5%;
-    justify-content: space-between;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+    grid-template-rows: auto;
+    justify-content: space-between;width: 100%;
+    grid-gap: 0px 10px;
+    
 }
 
 @media (max-width: 975px) {
