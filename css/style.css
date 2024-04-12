@@ -95,7 +95,7 @@ h1 {
     justify-self: center;
     color: white;
     border-radius: 10px;
-    padding-top: 75px;
+    padding-top: 85px;
     font-family: var(--tipografiapricipal);
 }
 
@@ -318,3 +318,4 @@ p {
     text-align: left;
     text-decoration: none;
 }
+

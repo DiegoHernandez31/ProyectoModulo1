@@ -27,7 +27,6 @@
     border-radius: 5px;
     width: 100%;
     height: 300px;
-    object-fit: cover;
 }
 
 .main-container {
@@ -122,6 +121,11 @@
 .more-recipes-title {
     font-family: DM Serif Display;;
     margin-top: 10px;
+}
+
+.more-recipes-title-a {
+    text-decoration: none;
+    color: black;
 }
 
 .more-images-recipes {
